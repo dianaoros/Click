@@ -1,5 +1,5 @@
 //
-//  Bag.swift
+//  BagToOrder.swift
 //  Click
 //
 //  Created by Diana Oros on 6/1/23.
@@ -10,7 +10,7 @@ import Foundation
 
 // items in bag
 // save in core data or realm maybe instead of making networking calls
-public struct Bag: Codable, Sendable, Identifiable {
+public struct BagToOrder: Codable, Sendable, Identifiable {
     public var id: String
     public var items: [Item]
     public var price: Order.Price //?

@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		8440222B2A16FA960027AB75 /* ClickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440222A2A16FA960027AB75 /* ClickApp.swift */; };
 		8440222D2A16FA960027AB75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440222C2A16FA960027AB75 /* ContentView.swift */; };
-		8440222F2A16FA970027AB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8440222E2A16FA970027AB75 /* Assets.xcassets */; };
-		844022322A16FA970027AB75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844022312A16FA970027AB75 /* Preview Assets.xcassets */; };
 		8440223C2A16FA970027AB75 /* ClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440223B2A16FA970027AB75 /* ClickTests.swift */; };
 		844022462A16FA970027AB75 /* ClickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844022452A16FA970027AB75 /* ClickUITests.swift */; };
 		844022482A16FA970027AB75 /* ClickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844022472A16FA970027AB75 /* ClickUITestsLaunchTests.swift */; };
@@ -29,11 +27,28 @@
 		84E08EA42A290B6E00E9246A /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EA32A290B6E00E9246A /* Address.swift */; };
 		84E08EA62A290B7900E9246A /* MemberError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EA52A290B7900E9246A /* MemberError.swift */; };
 		84E08EA82A290B8600E9246A /* Network+Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EA72A290B8600E9246A /* Network+Member.swift */; };
-		84E08EAA2A290C1B00E9246A /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EA92A290C1B00E9246A /* Bag.swift */; };
+		84E08EAA2A290C1B00E9246A /* BagToOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EA92A290C1B00E9246A /* BagToOrder.swift */; };
 		84E08EAC2A290C2300E9246A /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EAB2A290C2300E9246A /* Orders.swift */; };
 		84E08EAE2A290C3000E9246A /* Network+Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EAD2A290C3000E9246A /* Network+Orders.swift */; };
 		84E08EB02A290C7500E9246A /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EAF2A290C7500E9246A /* Password.swift */; };
 		84E08EB42A290C9E00E9246A /* Network+Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EB32A290C9E00E9246A /* Network+Password.swift */; };
+		84E08EF22A2955DD00E9246A /* Button+ProminentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EF12A2955DD00E9246A /* Button+ProminentStyle.swift */; };
+		84E08EF42A2955EE00E9246A /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EF32A2955EE00E9246A /* PrimaryButton.swift */; };
+		84E08EF62A29562600E9246A /* CachedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EF52A29562600E9246A /* CachedImage.swift */; };
+		84E08EF82A29565600E9246A /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EF72A29565600E9246A /* Gradient.swift */; };
+		84E08EFA2A29578900E9246A /* Text+Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EF92A29578900E9246A /* Text+Typography.swift */; };
+		84E08EFC2A2957A600E9246A /* Font+Didot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08EFB2A2957A600E9246A /* Font+Didot.swift */; };
+		84E08F032A295BD600E9246A /* AppRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F022A295BD600E9246A /* AppRoot.swift */; };
+		84E08F0A2A295C9300E9246A /* AppTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F092A295C9300E9246A /* AppTabs.swift */; };
+		84E08F0F2A295DCD00E9246A /* StoreHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F0E2A295DCD00E9246A /* StoreHome.swift */; };
+		84E08F122A295E1800E9246A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F112A295E1800E9246A /* Router.swift */; };
+		84E08F162A295EEC00E9246A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F152A295EEC00E9246A /* Store.swift */; };
+		84E08F182A295FCD00E9246A /* TabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F172A295FCD00E9246A /* TabRouter.swift */; };
+		84E08F1C2A2964AF00E9246A /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F1B2A2964AF00E9246A /* Account.swift */; };
+		84E08F1E2A2964BD00E9246A /* AccountHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F1D2A2964BD00E9246A /* AccountHome.swift */; };
+		84E08F212A2965CB00E9246A /* BagHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F202A2965CB00E9246A /* BagHome.swift */; };
+		84E08F232A2965D300E9246A /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F222A2965D300E9246A /* Bag.swift */; };
+		84E08F272A29669D00E9246A /* AccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08F262A29669D00E9246A /* AccountRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,11 +94,28 @@
 		84E08EA32A290B6E00E9246A /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		84E08EA52A290B7900E9246A /* MemberError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberError.swift; sourceTree = "<group>"; };
 		84E08EA72A290B8600E9246A /* Network+Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Member.swift"; sourceTree = "<group>"; };
-		84E08EA92A290C1B00E9246A /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		84E08EA92A290C1B00E9246A /* BagToOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagToOrder.swift; sourceTree = "<group>"; };
 		84E08EAB2A290C2300E9246A /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		84E08EAD2A290C3000E9246A /* Network+Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Orders.swift"; sourceTree = "<group>"; };
 		84E08EAF2A290C7500E9246A /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
 		84E08EB32A290C9E00E9246A /* Network+Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Password.swift"; sourceTree = "<group>"; };
+		84E08EF12A2955DD00E9246A /* Button+ProminentStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+ProminentStyle.swift"; sourceTree = "<group>"; };
+		84E08EF32A2955EE00E9246A /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		84E08EF52A29562600E9246A /* CachedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImage.swift; sourceTree = "<group>"; };
+		84E08EF72A29565600E9246A /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		84E08EF92A29578900E9246A /* Text+Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Typography.swift"; sourceTree = "<group>"; };
+		84E08EFB2A2957A600E9246A /* Font+Didot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Didot.swift"; sourceTree = "<group>"; };
+		84E08F022A295BD600E9246A /* AppRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoot.swift; sourceTree = "<group>"; };
+		84E08F092A295C9300E9246A /* AppTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabs.swift; sourceTree = "<group>"; };
+		84E08F0E2A295DCD00E9246A /* StoreHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreHome.swift; sourceTree = "<group>"; };
+		84E08F112A295E1800E9246A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		84E08F152A295EEC00E9246A /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		84E08F172A295FCD00E9246A /* TabRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouter.swift; sourceTree = "<group>"; };
+		84E08F1B2A2964AF00E9246A /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		84E08F1D2A2964BD00E9246A /* AccountHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHome.swift; sourceTree = "<group>"; };
+		84E08F202A2965CB00E9246A /* BagHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagHome.swift; sourceTree = "<group>"; };
+		84E08F222A2965D300E9246A /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		84E08F262A29669D00E9246A /* AccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,11 +166,13 @@
 		844022292A16FA960027AB75 /* Click */ = {
 			isa = PBXGroup;
 			children = (
-				8440222A2A16FA960027AB75 /* ClickApp.swift */,
-				8440222C2A16FA960027AB75 /* ContentView.swift */,
+				84E08EFE2A295ABB00E9246A /* App */,
+				84E08F042A295C1A00E9246A /* Common */,
+				84E08EFD2A295AB000E9246A /* Modules */,
 				8440229C2A285A420027AB75 /* Assets */,
 				8440229B2A285A300027AB75 /* Supporting Files */,
 				84E08E832A29099400E9246A /* API */,
+				84E08EEB2A2954C500E9246A /* UI */,
 				844022302A16FA970027AB75 /* Preview Content */,
 			);
 			path = Click;
@@ -275,7 +309,7 @@
 		84E08E8A2A2909FE00E9246A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				84E08EA92A290C1B00E9246A /* Bag.swift */,
+				84E08EA92A290C1B00E9246A /* BagToOrder.swift */,
 				84E08EAB2A290C2300E9246A /* Orders.swift */,
 			);
 			path = Models;
@@ -297,6 +331,197 @@
 				84E08E9D2A290B1200E9246A /* ItemImageSize.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		84E08EEB2A2954C500E9246A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84E08EEC2A29558500E9246A /* Components */,
+				84E08F102A295E0400E9246A /* Environment */,
+				84E08EED2A29559000E9246A /* Styles */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84E08EEC2A29558500E9246A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84E08EEE2A2955A300E9246A /* Button */,
+				84E08EEF2A2955AE00E9246A /* Image */,
+				84E08EF02A2955BB00E9246A /* Text */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		84E08EED2A29559000E9246A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				84E08EF72A29565600E9246A /* Gradient.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		84E08EEE2A2955A300E9246A /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				84E08EF12A2955DD00E9246A /* Button+ProminentStyle.swift */,
+				84E08EF32A2955EE00E9246A /* PrimaryButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		84E08EEF2A2955AE00E9246A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				84E08EF52A29562600E9246A /* CachedImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		84E08EF02A2955BB00E9246A /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				84E08EF92A29578900E9246A /* Text+Typography.swift */,
+				84E08EFB2A2957A600E9246A /* Font+Didot.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		84E08EFD2A295AB000E9246A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84E08EFF2A295B9800E9246A /* Root */,
+				84E08F0D2A295DA900E9246A /* Store */,
+				84E08F192A29648400E9246A /* Bag */,
+				84E08F1A2A29649D00E9246A /* Account */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84E08EFE2A295ABB00E9246A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8440222A2A16FA960027AB75 /* ClickApp.swift */,
+				8440222C2A16FA960027AB75 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		84E08EFF2A295B9800E9246A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F002A295B9F00E9246A /* Scenes */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		84E08F002A295B9F00E9246A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F012A295BA700E9246A /* AppRoot */,
+				84E08F082A295C8300E9246A /* AppTabs */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		84E08F012A295BA700E9246A /* AppRoot */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F022A295BD600E9246A /* AppRoot.swift */,
+			);
+			path = AppRoot;
+			sourceTree = "<group>";
+		};
+		84E08F042A295C1A00E9246A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F052A295C2400E9246A /* State */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84E08F052A295C2400E9246A /* State */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F172A295FCD00E9246A /* TabRouter.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		84E08F082A295C8300E9246A /* AppTabs */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F092A295C9300E9246A /* AppTabs.swift */,
+			);
+			path = AppTabs;
+			sourceTree = "<group>";
+		};
+		84E08F0C2A295D9400E9246A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F152A295EEC00E9246A /* Store.swift */,
+				84E08F0E2A295DCD00E9246A /* StoreHome.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		84E08F0D2A295DA900E9246A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F0C2A295D9400E9246A /* Scenes */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		84E08F102A295E0400E9246A /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F112A295E1800E9246A /* Router.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		84E08F192A29648400E9246A /* Bag */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F242A2965E100E9246A /* Scenes */,
+			);
+			path = Bag;
+			sourceTree = "<group>";
+		};
+		84E08F1A2A29649D00E9246A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F252A29669200E9246A /* States */,
+				84E08F1F2A29659700E9246A /* Scenes */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		84E08F1F2A29659700E9246A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F1B2A2964AF00E9246A /* Account.swift */,
+				84E08F1D2A2964BD00E9246A /* AccountHome.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		84E08F242A2965E100E9246A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F222A2965D300E9246A /* Bag.swift */,
+				84E08F202A2965CB00E9246A /* BagHome.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		84E08F252A29669200E9246A /* States */ = {
+			isa = PBXGroup;
+			children = (
+				84E08F262A29669D00E9246A /* AccountRouter.swift */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,8 +629,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844022322A16FA970027AB75 /* Preview Assets.xcassets in Resources */,
-				8440222F2A16FA970027AB75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,26 +653,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E08F272A29669D00E9246A /* AccountRouter.swift in Sources */,
+				84E08F232A2965D300E9246A /* Bag.swift in Sources */,
 				84E08E922A290A2B00E9246A /* NetworkActor.swift in Sources */,
 				84E08EB42A290C9E00E9246A /* Network+Password.swift in Sources */,
 				84E08E962A290A4400E9246A /* NetworkError.swift in Sources */,
 				84E08E902A290A2200E9246A /* Network.swift in Sources */,
 				84E08EB02A290C7500E9246A /* Password.swift in Sources */,
+				84E08F032A295BD600E9246A /* AppRoot.swift in Sources */,
+				84E08F162A295EEC00E9246A /* Store.swift in Sources */,
 				8440222D2A16FA960027AB75 /* ContentView.swift in Sources */,
+				84E08EF42A2955EE00E9246A /* PrimaryButton.swift in Sources */,
+				84E08F122A295E1800E9246A /* Router.swift in Sources */,
 				84E08E942A290A3A00E9246A /* NetworkEnvironment.swift in Sources */,
 				84E08EA22A290B6200E9246A /* Member.swift in Sources */,
 				84E08EAC2A290C2300E9246A /* Orders.swift in Sources */,
+				84E08F0F2A295DCD00E9246A /* StoreHome.swift in Sources */,
 				8440222B2A16FA960027AB75 /* ClickApp.swift in Sources */,
+				84E08F212A2965CB00E9246A /* BagHome.swift in Sources */,
+				84E08EF82A29565600E9246A /* Gradient.swift in Sources */,
+				84E08EF62A29562600E9246A /* CachedImage.swift in Sources */,
 				84E08E9C2A290B0900E9246A /* Item.swift in Sources */,
 				84E08E9E2A290B1200E9246A /* ItemImageSize.swift in Sources */,
 				84E08EA42A290B6E00E9246A /* Address.swift in Sources */,
+				84E08F1C2A2964AF00E9246A /* Account.swift in Sources */,
 				84E08E8E2A290A1A00E9246A /* Endpoint.swift in Sources */,
+				84E08EFA2A29578900E9246A /* Text+Typography.swift in Sources */,
 				84E08E982A290A5100E9246A /* NetworkRequest.swift in Sources */,
 				84E08E9A2A290A5A00E9246A /* Serialization.swift in Sources */,
 				84E08EA02A290B1E00E9246A /* Network+Item.swift in Sources */,
 				84E08EA62A290B7900E9246A /* MemberError.swift in Sources */,
+				84E08F182A295FCD00E9246A /* TabRouter.swift in Sources */,
 				844022A02A285A8A0027AB75 /* Member+Mock.swift in Sources */,
-				84E08EAA2A290C1B00E9246A /* Bag.swift in Sources */,
+				84E08EAA2A290C1B00E9246A /* BagToOrder.swift in Sources */,
+				84E08F1E2A2964BD00E9246A /* AccountHome.swift in Sources */,
+				84E08EF22A2955DD00E9246A /* Button+ProminentStyle.swift in Sources */,
+				84E08EFC2A2957A600E9246A /* Font+Didot.swift in Sources */,
+				84E08F0A2A295C9300E9246A /* AppTabs.swift in Sources */,
 				84E08EA82A290B8600E9246A /* Network+Member.swift in Sources */,
 				84E08EAE2A290C3000E9246A /* Network+Orders.swift in Sources */,
 			);
